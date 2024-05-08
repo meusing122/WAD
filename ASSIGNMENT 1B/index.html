@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            
+            <legend style="font-weight: 700; font-size: larger;">
+                Enter the Details
+            </legend>
+            <br>
+                <label for="First" style="padding-left: 20%;">
+                    First Name : 
+                    <input type="text" name="" id="First" style="margin-right: 5%;">
+                </label>
+                <label for="Last">
+                    Last Name : 
+                    <input type="text" name="" id="Last">
+                </label>
+                <br>
+                <br>
+                <label for="Male" style="margin-left: 20%;">
+                    Male : 
+                    <input type="radio" name="Gender" id="Male" value="Male">
+                </label>
+                <label for="Female">
+                    Female : 
+                    <input type="radio" name="Gender" id="Female" value="Female">
+                </label>
+                <br>
+                <br>
+                <label for="Branch" style="padding-left: 20%;">
+                    Branch Name :
+                    <select name="Branch" id="Branch">
+                        <option value="">None</option>
+                        <option value="IT">I.T</option>
+                        <option value="COMP">Computer</option>
+                        <option value="MEC">Mechanical</option>
+                    </select>
+                </label>
+                <br><br>
+                <input type="button" value="Submit" style="margin-left: 45%; margin-right: auto;" onclick="Submit()">
+        </fieldset>
+        </form>
+    </body>
+    <script src="./script.js"></script>
+    </html>

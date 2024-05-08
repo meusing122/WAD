@@ -1,0 +1,18 @@
+<nav class="navbar">
+  <div class="logo">
+    <h1>Sinhgad Institutes</h1>
+  </div>
+  <div class="navlinks">
+    <ul>
+      <li [routerLink]="['/home']">Home</li>
+      <li [routerLink]="['/register']">Registeration</li>
+      <li [routerLink]="['/login']">Login</li>
+      <li [routerLink]="['/profile']">Profile</li>
+    </ul>
+  </div>
+</nav>
+
+
+<main class="container">
+  <router-outlet></router-outlet>
+</main>

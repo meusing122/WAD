@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #a136ff;
+    color: #fff;
+    height: 7vh;
+    padding: 0 20px;
+}
+.navlinks {
+    width: 40%;
+    display: flex;
+    color: #3b3b3b;
+}
+.navlinks ul {
+    width: 80%;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.navlinks ul li:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.container {
+    background: #000000;
+    height: 93vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
